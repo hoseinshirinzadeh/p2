@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>project 2</title>
+		<link rel="icon" href="image/logo.jpg"
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="./Untitled_files/main.css">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<style type="text/css">@font-face{
+    font-family: 'bnazanin';
+    src:'./../../fonts/bnazanin.ttf';
+}
+
+.dideo-tooltip {
+    position: relative;
+    display: inline-block;
+    font-family: 'bnazanin';
+    font-size: 0;
+    padding: 3px 5px;
+}
+
+.dideo-tooltip .tooltiptext {
+    visibility: hidden;
+    font-family: 'bnazanin';
+    width: 120px;
+    font-size: 13px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 110%;
+}
+.dideo-img{
+    width: 18px;
+    height: 18px;
+    margin-bottom: -3px;
+    filter: drop-shadow(0px 0px 2px #adadad);
+    webkit:filter: drop-shadow(0px 0px 2px #adadad);
+}
+.dideo-tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+.dideo-tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.srg{
+    min-width: 750px;
+}</style></head>
+	<body class="">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>hosein shirnzadeh</h1>
+						<p>web designer</p>
+						<nav>
+							<ul>
+								
+								<li><a href="https://www.instagram.com/codex_time/" class="icon brands fa-instagram" dideo-checked="true"><span class="label">instagram</span></a></li>
+								<li><a href="https://github.com/hoseinshirinzadeh" class="icon brands fa-github" dideo-checked="true"><span class="label">Github</span></a></li>
+								<li><a href="mailto: hoseinshirinzadeh@gmail.com" class="icon solid fa-envelope" dideo-checked="true"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">© Untitled.</span>
+					</footer>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	
+<script>(function() {
+  if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g) && window.self !== window.top) {
+    var body = document.body, f = function() {
+      body.style.width = window.top.innerWidth + 'px';
+      body.style.height = window.top.innerHeight + 'px';
+    };
+    window.addEventListener('load', f);
+    window.addEventListener('orientationchange', f);
+    window.addEventListener('resize', f);
+  }
+})();
+</script>
+
+</body></html>
